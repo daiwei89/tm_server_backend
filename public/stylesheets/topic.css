@@ -1,0 +1,40 @@
+
+#svgTopic {
+  margin: auto;
+  display: block;
+}
+
+#svgTopic text:hover {
+  opacity: .7 !important;
+}
+
+#doc-text {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    padding-left: 20px;
+    height: 800px;
+    overflow: auto; /* or hidden */
+}
+
+/* .doc-table {
+    opacity: 0.4;
+}*/
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
